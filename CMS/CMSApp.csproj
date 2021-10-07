@@ -232,6 +232,9 @@
     <Reference Include="PayPal, Version=1.8.0.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
       <HintPath>..\packages\PayPal.1.8.0\lib\net451\PayPal.dll</HintPath>
     </Reference>
+    <Reference Include="RestSharp, Version=106.12.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.106.12.0\lib\net452\RestSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
@@ -16141,6 +16144,7 @@
     <Compile Include="CMSWebParts\Widgets\WidgetActions.ascx.designer.cs">
       <DependentUpon>WidgetActions.ascx</DependentUpon>
     </Compile>
+    <Compile Include="CustomScheduledTask\CoffeeSampleListSubmissions.cs" />
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
@@ -20779,6 +20783,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Old_App_Code\CMSClasses\Forms\BizForm\DancingGoatMvcCoffeeSampleList.generated.cs" />
     <Compile Include="Old_App_Code\CMSModules\Automation\AutomationFunctions.cs" />
     <Compile Include="Old_App_Code\CMSModules\Badges\BadgesListControlExtender.cs" />
     <Compile Include="Old_App_Code\CMSModules\BadWords\BadWordsListControlExtender.cs" />
